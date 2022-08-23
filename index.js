@@ -257,32 +257,6 @@ bot.on('chat', (username, message) => {
 
     }
 
-    if (message.toLowerCase() === 'help') {
-      bot.chat("Hello! REMEMBER THERE IS NO COMMAND PREFIX FOR ME")
-      bot.chat("")
-      bot.chat("help = Shows this command")
-      bot.chat("guard = guards your location where you are standing")
-      bot.chat("fight me = Fights you, PVPs you")
-      bot.chat("stop = Stopps all current processes")
-      bot.chat("eat = Eats food if the food bar is low")
-      bot.chat("openinv = Returns every item the bot currently has")
-      bot.chat("drop <ITEMNAME> = drops the item that you mentioned if the bot has it")
-      bot.chat("status = Returns health level and food level")
-      bot.chat("collect <BLOCK NAME> = Mines that block")
-      bot.chat("equip = Equips the armour grades and swords if its not equipped already")
-      bot.chat("sleep = Finds the nearby bed and sleeps")
-      bot.chat("wakeup = Wakes up from the bed")
-      bot.chat("mount = Mounts to the nearby mob or vehicle")
-      bot.chat("unmount = Unmounts from the vehicle")
-      bot.chat("comehere = Navigates to your current location if you are nearby")
-      bot.chat("equiptotem = Equips totem of undying if it has one")
-      bot.chat("totemcount = Returns the number of totems the bot has in its inventory")
-      bot.chat("go to <X Y Z> = Goes to the given location")
-      bot.chat("follow <PLAYERNAME> = Follows the mentioned player")
-      bot.chat("enable guardmode = Enables guardmode, spawns bodyguards to protect you")
-      bot.chat("disable guardmode = Disables guardmode = despawns bodyguards and stops protecting you")
-    }
-
     if (message.toLowerCase() === 'eat') {
       if (bot.food === 20) {
         bot.chat('My food level is full')
