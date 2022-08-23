@@ -67,7 +67,7 @@ There are no Command prefixes for the command so that you can just chat with the
 
 `enable guardmode = Enables guardmode, spawns bodyguards to protect you`
 
-`disable guardmode = Disables guardmode = despawns bodyguards and stops protecting you`
+`disable guardmode = Disables guardmode, despawns bodyguards and stops protecting you`
 
 
 ## Bot Setup
