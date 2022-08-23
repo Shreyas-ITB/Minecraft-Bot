@@ -1,0 +1,26 @@
+{
+  "name": "botguard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IHasBone",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "minecrafthawkeye": "^1.2.7",
+    "mineflayer": "^4.4.0",
+    "mineflayer-armor-manager": "^1.4.2",
+    "mineflayer-auto-eat": "^2.3.3",
+    "mineflayer-autotem": "^1.0.1",
+    "mineflayer-collectblock": "^1.4.1",
+    "mineflayer-navigate": "^0.0.10",
+    "mineflayer-pathfinder": "^2.3.1",
+    "mineflayer-pvp": "^1.3.2",
+    "prismarine-viewer": "^1.23.0",
+    "vec3": "^0.1.7"
+  }
+}
